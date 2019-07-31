@@ -1,30 +1,31 @@
-#Command, tutorials, documentation
 
-##MERN
+# Command, tutorials, documentation
 
-####Install Node.js, MongoDB, Express, React.
+## MERN
 
-####Start React server (in project folder)
+### Install Node.js, MongoDB, Express, React.
 
-	npm start
+ - Start React server (in project folder)
 
-####Start nodemon server (in project's backend)
+		npm start
+
+- Start nodemon server (in project's backend)
 	
-	nodemon server
+		nodemon server
 
-If that command don't work:
-
-*First add this lines to backend's package.json*
-
-	"scripts": {
-	    "serve": "nodemon server.js"
-  	},
-*Start server with:*
-
-	npm run serve
-
-###To run the database server
-
-	mongod
 	
 
+> *If that command don't work:*
+> 
+> 	First add this lines to backend's package.json*
+> 
+> 			"scripts": {
+> 			    "serve": "nodemon server.js"
+> 		  	},
+> 	And Start server with
+> 
+> 				npm run serve
+
+- To run the database server
+
+		mongod
